@@ -15,7 +15,7 @@
                     @endif
 
                     {{ __('You are logged in!') }}
-                    <h1>Login Sebagai:
+                    <h1>Login As:
                         {{ Auth::user()->level }}</h1>
                 </div>
             </div>
